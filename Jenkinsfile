@@ -35,7 +35,8 @@ pipeline {
 
     agent {
         dockerfile {
-            label 'linux-agent'
+            //label 'linux-agent'
+            label 'master'
             filename 'Dockerfile'
             dir 'docker/jenkins'
         }
